@@ -8,8 +8,8 @@ body {
 }
 
 .header, .sectionone, .sectiontwo, .sectionthree, .sectionfour, .footer {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .header {
@@ -32,4 +32,56 @@ ul {
     gap: 16px;
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 400;
+}
+
+.sectionone {
+    background: #1f2937;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 50px 15%;
+}
+
+.one-heading {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.one-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 400;
+}
+
+.one-button {
+    text-align: center;
+    padding: 10px;
+    background: #3882f6;
+    color: #e5e7eb;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.one-heading, .one-subtext, .one-button {
+    margin-bottom: 20px;
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.one-image {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 150px;
+    background: #e5e7eb;
+    margin-left: 20px;
 }
