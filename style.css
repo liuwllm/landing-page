@@ -85,3 +85,117 @@ ul {
     background: #e5e7eb;
     margin-left: 20px;
 }
+
+.sectiontwo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 50px 0px;
+    color: #1f2937;
+}
+
+.two-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.two-allcontainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+    gap: 5%;
+}
+
+.two-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+.two-image {
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.two-subtext {
+    text-align: center;
+}
+
+.sectionthree {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    color: #1f2937;
+    padding: 50px 25%;
+}
+
+.three-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.three-author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sectionfour {
+    padding: 50px 15%;
+    color: #e5e7eb;
+}
+
+.four-container {
+    background: #3882f6;
+    border-radius: 20px;
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.four-text {
+    font-size: 18px;
+}
+
+.four-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.four-button {
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    color: #e5e7eb;
+    background: #3882f6;
+    padding: 10px 20px;
+}
+
+.four-right {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.footer {
+    background: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 200px;
+    text-align: center;
+    padding: 50px 0px;
+}
